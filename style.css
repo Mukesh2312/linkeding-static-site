@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f2ef;
+    box-sizing: border-box;
+
+}
+
+/* header started */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-content{
+    display: flex;
+    gap: 40px;
+}
+.left-content li{
+    list-style: none;
+}
+nav .left-content .fa-magnifying-glass {
+    position: absolute;
+    margin: 10px 8px;
+}
+
+nav .left-content .head-input-search{
+    border: 0;
+    background-color: #eef3f9;
+    width: 155%;
+    height: 40px;
+    padding-left: 30px;
+}
+.fa-linkedin{
+    font-size: 35px;
+    color: #0d67c2;
+}
+
+.fa-text{
+   color: #808080;
+}
+
+nav .right-content {
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+    list-style-type: none;
+    text-align: center;
+}
+.right-content{
+    display: flex;
+}
+.right-content li{
+    list-style: none;
+    cursor: pointer;
+}
+.right-content li:hover .fa-text{
+    color: black;
+}
+/* header end */
+
+/* main section started€ */
+.main-section {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.main-section-left-box {
+    width: 17%;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 1rem;
+}
+.main-section-left-box .user-bg-color {
+    background-color: #a0b4b7;
+    width: 100%;
+    height: 50px;
+}
+.main-section-left-box .fa-regular.fa-circle-user {
+    font-size: 50px;
+    color: #ce95ff;
+    position: absolute;
+    margin: -24px 76px;
+}
+
+.main-section-left-box .user-name {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-section-left-box .user-mail {
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.main-section-left-box .user-account-status {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section-left-box  .box{
+    color: grey;
+    font-size: 12px;
+    margin: 0 5px
+}
+
+.main-section-left-box .counts{
+    color: #0d67c2;
+}
+
+.main-section-middle-box {
+    width: 63%;
+    background-color: white;
+}
+.main-section-right-box {
+    width: 20%;
+    background-color: white;
+}
+/* main section end */
